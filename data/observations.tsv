@@ -1,86 +1,94 @@
-#id	Date	Location	Scope	Seeing	Trans	Item	Time	Eyepiece	Mag	Notes
-20171027-01-mizar	2017-10-27	Bellevue at home	Omni XLT 150	G	3	Mizar and Alcor	11:14	25mm + 2x barlow	60x	
-20171027-02-m36	2017-10-27	Bellevue at home	Omni XLT 150	G	3	M 36	11:51	25mm	30x	Open cluster in Auriga. Gray area was elusive, only visible with averted vision
-20171028-01-m31	2017-10-28	Bellevue at home	Omni XLT 150	G	3	M 31, M 32	10:12	25mm	30x	Very faint--have to use averted vision to see anything but the core.  M32 looks like a star
-20171028-02-cr399	2017-10-28	Bellevue at home	Omni XLT 150	G	3	Cr 399/Coathanger Cluster	10:40	25mm	30x	Much brighter than in binoculars - this part of the sky is pretty bright because of the moon and a football game.
-20171028-03-albireo	2017-10-28	Bellevue at home	Omni XLT 150	G	3	Alberio	10:53	8mm	94x	A: bigger, light orange. B: smaller, light blue.
-20171210-01-m34	2017-12-10	Bellevue at home	Omni XLT 150	F	3	M 34/Spiral Cluster	7:00	25mm	30x	Seems like a spiral of stars going in; faintest hint of nebulosity in the center (Didn't know about the name until after writing this description!)
-20171210-02-m57	2017-12-10	Bellevue at home	Omni XLT 150	F	3	M 57/Ring nebula	7:30	25mm + 2x barlow	60x	Can barely make out a ring with averted vision -- else just a light blur.
-20171220-01-m39	2017-12-20	Bellevue at home	Omni XLT 150	G	3	M 39	8:22	25mm	30x	Nice triangular-shaped open cluster. Stars are very crisp and clear and bright.
-20171220-02-m37	2017-12-20	Bellevue at home	Omni XLT 150	G	3	M 37/January Salt and Pepper cluster	9:18	25mm + 2x barlow	60x	Very faint, with averted vision seems like a speckle of stars.
-20171220-03-davisdog	2017-12-20	Bellevue at home	10x50 Binoculars	G	3	Davis's Dog	9:52			Looks like 73 to me.
-20171220-04-almach	2017-12-20	Bellevue at home	Omni XLT 150	G	3	Almach	10:30	8mm	94x	Primary is a light orange. Secondary is blue (rather deep blue for a star); much fainter. Nice double!
-20180103-01-uranus	2018-01-03	Bellevue at home	9x50 Finderscope	F	3	Uranus	9:52			White/pale blue. Looks like a big star, but not as bright.
-20180103-02-iotacas	2018-01-03	Bellevue at home	Omni XLT 150	F	3	Iota Cas	10:23	8mm	94x	Supposedly a triple star.  Yes, in finderscope this appears as 3 stars clumped together. :)
-20180103-03-rigel	2018-01-03	Bellevue at home	Omni XLT 150	F	3	Rigel	10:39	8mm	94x	Double star. Secondary is very faint, just outside the bright sparkle of the primary. Can see hints of the diffractions patterns due to the spider.
-20180113-01-m77	2018-01-13	Bellevue at home	Omni XLT 150	G	3+	M 77	9:00	25mm + 2x barlow	60x	Kind of a pear shape of faint nebulosity - slightly sparkly.
-20180113-02-castor	2018-01-13	Bellevue at home	Omni XLT 150	G	3+	Castor	9:37	8mm + 2x barlow	188x	Can see separation between primary and secondary, but lots of noise around the stars. This is a 6-star system, I believe.
-20180113-03-m45	2018-01-13	Bellevue at home	Omni XLT 150	G	3+	M45/Pleiades	10:36	25mm	30x	No nebulosity, but very sharp, bright stars.
-20180113-04-betamon	2018-01-13	Bellevue at home	Omni XLT 150	G	3+	Beta Mon	11:11	8mm	94x	Can't tell which of the close pair is primary; equal brightness. Both are white. Note: if I had better luck and a higher magnification, should be a triple star.
-20180114-01-m38	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	M 38/Starfish Cluster	8:05	25mm + 2x barlow	60x	Smaller than I expected. Lots more stars (not shown) with averted vision. General penagon shape. Shaded ovals show areas with many smaller dimmer stars.
-20180114-02-mucep	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	Mu Cep	8:23	8mm	94x	Light orange color. Really stands out.
-20180114-03-m35	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	M 35	8:46	25mm	30x	Two brigher stars in a cluster, then sort of a hexagonal grid. Then grayer area that resolves to lots of fain stars with averted vision.
-20180114-04-m42	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	M 42, M 43	9:49	8mm	94x	Nebulosity is brightest near the trapezium (see 4 stars) and the row of 3. Also some about tthe star farther down (M43). Very pretty.
-20180114-05-ngc2264	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	NGC 2264/Christmas Tree Cluster	10:19	25mm + 2x barlow	60x	Looks like a Christmas tree!
-20180129-01-145cma	2018-01-29	Bellevue at home	10x50 Binoculars	G	3-	145 CMa/Winter Albireo	10:58			Double. Both appear pale orange.
-20180210-01-algieba	2018-02-10	Bellevue at home	Omni XLT 150	VG	3-	Algieba	4:39 AM	8mm + 2x barlow	188x	Both appear bright orange. Nicely separated.
-20180210-02-m53	2018-02-10	Bellevue at home	Omni XLT 150	VG	3-	M 53	5:15 AM	8mm	94x	Bright core, with averted vision, a hint of resolving some stars. Seems generally rather gray.
-20180210-03-corcaroli	2018-02-10	Bellevue at home	Omni XLT 150	VG	3-	Cor Caroli	5:28 AM	8mm	94x	Both bright white.
-20180210-04-jupiter	2018-02-10	Bellevue at home	Omni XLT 150	VG	3-	Jupiter	5:52 AM	8mm + 2x barlow	188x	Bright white disk. Can see 2 main bands and 2 fainter ones at the top and bottom. Closest moon seems to have moved farther from Jupiter after 15 min.
-20180211-01-cheshire	2018-02-11	Bellevue at home	Omni XLT 150	F	3	Cheshire Cat/Smiley Face	11:39	25mm	30x	Found this pretty fast today - aimed the red dot finder where I thought it would be, and there it was in the scope!
-20180211-02-sigmaori	2018-02-11	Bellevue at home	Omni XLT 150	F	3	Sigma Ori	11:47	8mm	94x	Very cool - I like the two pairs of doubles in the view. :)
-20180212-01-11cam	2018-02-12	Bellevue at home	Omni XLT 150	F	3	11 Cam	10:08	25mm	30x	A: white, maybe a hint of blue. B: very pale orange. Pretty double, tricky to find in LP skies.
-20180212-02-deltaori	2018-02-12	Bellevue at home	Omni XLT 150	F	3	Delta Ori/Mintaka	10:32	25mm + 2x barlow	60x	Both stars are white. Easily split even at 30x.
-20180212-03-m41	2018-02-12	Bellevue at home	Omni XLT 150	F	3	M 41/Little Beehive cluster	10:40	25mm + 2x barlow	60x	Hints of more (much fainter) stars with averted vision. Stars are well spread out.
-20180212-04-rigel	2018-02-12	Bellevue at home	Omni XLT 150	F	3	Rigel/Beta Ori	11:05	8mm	94x	Lots of nebulosity around the primary. Secondary is faint but distinct pin prick.
-20180212-05-m44	2018-02-12	Bellevue at home	Omni XLT 150	F	3	M 44/Beehive Cluster	11:37	25mm	30x	Lots of very bright white stars. Fairly spread out.
-20180212-06-ceres	2018-02-12	Bellevue at home	Omni XLT 150	F	3	Ceres	12:32	25mm	30x	Just a white dot. Other stars for reference. A: 66 CnC, B: 63 CnC
-20180220-01-funnel	2018-02-20	Bellevue at home	Omni XLT 150	G	4	Funnel	10:15	25mm + 2x barlow	60x	All stars are white, approx same brightness. Sky is washed out here, so contrast could be better. Somewhat faint.
-20180220-02-arrowhead	2018-02-20	Bellevue at home	Omni XLT 150	G	4	Arrowhead	10:53	8mm	94x	No color in stars.
-20180220-03-m50	2018-02-20	Bellevue at home	Omni XLT 150	G	4	M 50/Heart Shaped cluster	11:04	8mm	94x	Beautiful heart-shaped open cluster. Seems to have a small concentration of stars in center right.
-20180220-04-m47	2018-02-20	Bellevue at home	Omni XLT 150	G	4	M 47	11:41	25mm + 2x barlow	60x	Lots of bright stars. I would name this the "Yoshi Cluster". Can easily be seen in 9x50 finderscope.
-20180222-01-etacas	2018-02-22	Bellevue at home	Omni XLT 150	VG	3+	Eta Cas	9:50	8mm	94x	Primary is yellow, secondary appears dim orange
-20180222-02-ngc1981	2018-02-22	Bellevue at home	Omni XLT 150	VG	3+	NGC 1981	10:19	18mm	42x	Looks like an upside down palm tree.
-20180222-03-ngc2169	2018-02-22	Bellevue at home	Omni XLT 150	VG	3+	NGC 2169	10:45	8mm	94x	Looks like 71 to me. Lighter stars drawn here are only visible with averted vision.
-20180305-01-m82	2018-03-05	Bellevue at home	Omni XLT 150	G	3	M 82/Cigar Galaxy	10:51	8mm	94x	Long and thin, just a fuzz, no more detail. A little larger, wider with averted vision.
-20180305-02-m81	2018-03-05	Bellevue at home	Omni XLT 150	G	3	M 81/Bode's Galaxy	11:01	8mm	94x	Center much brigher than the rest, although entire galaxy disappears without averted vision.
-20180305-03-m3	2018-03-05	Bellevue at home	Omni XLT 150	G	3	M 3	11:46	8mm	94x	Brighter in the center. Can't resolve any stars. Whole thing is fairly bright. No averted vision needed.
-20180311-01-ngc2244	2018-03-11	Rattlesnake Lake Park	Omni XLT 150	F	7	NGC 2244/Rosette Cluster	10:15	25mm	30x	Looks like a hexagon with a heart on top. Many more stars not drawn.
-20180311-02-m67	2018-03-11	Rattlesnake Lake Park	Omni XLT 150	F	7	M67/King Cobra Cluster	10:45	8mm	94x	Concentrated stars at the center. Almost seems like a hint of nebulosity. One bright star.
-20180311-03-leotriplet	2018-03-11	Rattlesnake Lake Park	Omni XLT 150	F	7	M 65, M 66, NGC 3628/Leo Triplet	11:05	20mm	38x	A: M66 - seems the brightest. Bright core, roundish. B: M65 - slightly dimmer and more eccentric. Also bright core. C: NGC 3628 - looks edge-on. Much fainter, only visible with averted vision. No core.
-20180311-04-m51	2018-03-11	Rattlesnake Lake Park	Omni XLT 150	F	7	M 51/Whirlpool Galaxy	11:30	8mm	94x	Clearly two galaxies, with brighter cores.  Appear face-on. Slight separation betwen them. Hint that they may be connected at the top.
-20180314-01-ngc2281	2018-03-14	Bellevue at home	Omni XLT 150	G	3	NGC 2281/Broken Heart Cluster	11:16	8mm	94x	Nice snake-shaped sequence of stars in the center.
-20180314-02-mel111	2018-03-14	Bellevue at home	10x50 Binoculars	G	3	Mel 111	11:45			Very large, spread out cluster. Stars all very bright.
-20180315-01-ngc2301	2018-03-15	Bellevue at home	Omni XLT 150	G	3	NGC 2301	10:15	8mm	94x	Some concentrations of very faint stars.
-20180315-02-gregs3	2018-03-15	Bellevue at home	Omni XLT 150	G	3	Greg's 3	10:48	8mm	94x	Somewhere between a C and a 3. :)
-20180319-01-m48	2018-03-19	Bellevue at home	Omni XLT 150	VG	3-	M 48	10:24	20mm	38x	No strong concentration. General pentagon shape. Relatively faint stars.
-20180319-02-betamon	2018-03-19	Bellevue at home	Omni XLT 150	VG	3-	Beta Mon	11:01	8mm + 2x barlow	188x	All stars are white. Nice triple! Second and third stars seem equal in brightness. Cleanly split.
-20180319-03-ngc2392	2018-03-19	Bellevue at home	Omni XLT 150	VG	3-	NGC 2392/Eskimo Nebula	11:17	8mm + 2x barlow	188x	Circular. Brighter center. Looks like a star at lower magnification. Took four attempts to find this!
-20180319-04-inchworm	2018-03-19	Bellevue at home	Omni XLT 150	VG	3-	Inchworm	11:51	24mm	31x	Looks like an inchworm. Direction a little hard to determine accurately since near zenith and scope is slipping a little.
-20180320-01-m3	2018-03-20	Bellevue at home	Omni XLT 150	G	3	M 3	11:45	8mm + 2x barlow	188x	Nice little globular cluster. Can't resolve any stars. Center is brighter.
-20180422-01-napoleonshat	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Napoleon's Hat	10:31	about 14mm	53x	Looks like a nice hat. Stars were relatively faint.
-20180422-02-iotaboo	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Iota Boo	11:04	8mm	94x	Both stars are white. Secondary is fainter, just a pinpoint of light.
-20180422-03-kappaboo	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Kappa Boo	11:10	8mm	94x	Both stars are white. Compared to iota Bootes, these are a little closer, and secondary is brighter.
-20180422-04-minicoathanger	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Mini Coathanger	11:25	about 15mm	50x	Can see the coathanger with some effort. Stars are not the same brightness; some on the handle require averted vision to see.
-20180422-05-jupiter	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Jupiter	11:55	8mm + 2x barlow	188x	Drawn slightly larger than actually appears in the view. Two bands are obvious, a third, polar band is visible for certain instants of time. Bands are light brown. Supposedly should see the shadow of Io, but no luck.
-20180506-01-venus	2018-05-06	Bellevue at home	Omni XLT 150	F	2	Venus	9:23	8mm	94x	Very bright, can't use high power since telescope not cooled. Can see that it's gibbous.
-20180511-01-m13	2018-05-11	Rattlesnake Lake Park	Omni XLT 150	VG	6	M 13	12:05	8mm	94x	Very large and bright. Generally spherical, but appears to have a few chains of stars coming out on the sides.
-20180523-01-epslyr	2018-05-23	Bellevue at home	Omni XLT 150	VG	3-	Epsilon Lyr/Double Double	10:30	5mm	150x	Doubles not cleanly split, especially epsilon1. However can see two pinpricks for epsilon2.
-20180523-02-moon	2018-05-23	Bellevue at home	Omni XLT 150	VG	3-	Anaxagoras, Epigenes, Birmingham	11:45	5mm	150x	Quick sketch of the edge of the moon as it was getting covered by a cloud.
-20180524-01-sigmacrb	2018-05-24	Bellevue at home	Omni XLT 150	VG	3	Sigma CrB	11:41	5mm	150x	Primary star looks a little yellower and seconary is whiter. Easily split. Could see two points with a 25mm eyepiece.
-20180524-02-jupiter	2018-05-24	Bellevue at home	Omni XLT 150	VG	3	Jupiter	12:03	5mm	150x	Two great bands. Can see some variability in thickness of the biggest one. Higher band seems broken into two spots.
-20180527-01-jupiter	2018-05-27	Bellevue at home	Omni XLT 150	G	3	Jupiter	11:45	5mm	150x	Moon closest to Jupiter has been moving up and away (SW). Can see 3 bands clearly, hints of a fourth.
-20180530-01-venus	2018-05-30	Bellevue at home	Omni XLT 150	P	0 (evening)	Venus	10:03	5mm	150x	No detail, just a white gibbous disc. Can see some chromatic abberation -- top is red, bottom is violet.
-20180530-02-m53	2018-05-30	Bellevue at home	Omni XLT 150	P	3-	M 53	10:47	5mm	150x	Just a gray patch, slightly brighter in the center
-20180530-03-jupiter	2018-05-30	Bellevue at home	Omni XLT 150	P	3-	Jupiter	10:58	5mm	150x	Surprisingly clear, given that I was looking through a cloud! Can see two large bands, bottom band looks darker, and another faint band near the top.
-20180601-01-polaris	2018-06-01	Bellevue at home	Omni XLT 150	G	4	Polaris	11:01	5mm	150x	Secondar star is easily separated, but much dimmer. Compass directions are approximate based on the location of the diamond ring in the finderscope.
-20180601-02-jupiter	2018-06-01	Bellevue at home	Omni XLT 150	G	4	Jupiter	11:30	5mm	150x	Moons 1,4 are the brightest, 3 next, 4 is dimmest. All perfectly in a line. Can see different darknesses within the bands.
-20180601-03-m29	2018-06-01	Bellevue at home	Omni XLT 150	G	4	M 29/Cooling Tower	12:15	12mm	63x	Small cluster of 7 brighter stars, with a few more dim ones. Not much concentration, rather sparse. Other stars outside this view are much brighter.
-20180606-01-venus	2018-06-06	Bellevue at home	Omni XLT 150	G	0 (evening)	Venus	9:43	5mm	150x	Nice clear gibbous shape. Can see the dark side in shadow.
-20180606-02-jupiter	2018-06-06	Bellevue at home	Omni XLT 150	P	0 (clouds)	Jupiter	11:44	5mm	150x	Jupiter visible through the clouds, bands still visible.
-20180611-01-mizaralcor	2018-06-11	Bellevue at home	Omni XLT 150	G	3	Mizar and Alcor	11:53	8mm	94x	Nice bright stars. All white. Classic.
-20180611-02-m5	2018-06-11	Bellevue at home	Omni XLT 150	G	3	M 5/Rise Cluster	12:18	5mm	150x	LP is bad enough tthat this is just a fuzzy with direct vision. But averted vision gives lots of stars and detail. Amazing!
-20180611-03-m12	2018-06-11	Bellevue at home	Omni XLT 150	G	3	M 12	12:30	5mm	150x	(Compared to M 5) Much fainter. Stars seem more distinct, not as dense.
-20180611-04-m57	2018-06-11	Bellevue at home	Omni XLT 150	G	3	M 57/Ring nebula	12:47	5mm	150x	Fairly bright ring. Inside the ring might be slightly brighter than outside.
-20180611-05-jupiter	2018-06-11	Bellevue at home	Omni XLT 150	F	3	Jupiter	1:12	5mm	150x	Super bright! Can see two main bands and part of a third.
-20180611-06-saturn	2018-06-11	Bellevue at home	Omni XLT 150	F	3	Saturn	1:35	5mm	150x	Beige color. Outside of rings are darker. Hint of the Cassini division.
+#id	Date	Location	Scope	Seeing	Trans	Item	Time	Eyepiece	Mag	Notes	Sketch
+20171027-01-mizar	2017-10-27	Bellevue at home	Omni XLT 150	G	3	Mizar and Alcor	11:14	25mm + 2x barlow	60x		20171027-01-mizar.jpg
+20171027-02-m36	2017-10-27	Bellevue at home	Omni XLT 150	G	3	M 36	11:51	25mm	30x	Open cluster in Auriga. Gray area was elusive, only visible with averted vision	20171027-02-m36.jpg
+20171028-01-m31	2017-10-28	Bellevue at home	Omni XLT 150	G	3	M 31, M 32	10:12	25mm	30x	Very faint--have to use averted vision to see anything but the core.  M32 looks like a star	20171028-01-m31.jpg
+20171028-02-cr399	2017-10-28	Bellevue at home	Omni XLT 150	G	3	Cr 399/Coathanger Cluster	10:40	25mm	30x	Much brighter than in binoculars - this part of the sky is pretty bright because of the moon and a football game.	20171028-02-cr399.jpg
+20171028-03-albireo	2017-10-28	Bellevue at home	Omni XLT 150	G	3	Alberio	10:53	8mm	94x	A: bigger, light orange. B: smaller, light blue.	20171028-03-albireo.jpg
+20171210-01-m34	2017-12-10	Bellevue at home	Omni XLT 150	F	3	M 34/Spiral Cluster	7:00	25mm	30x	Seems like a spiral of stars going in; faintest hint of nebulosity in the center (Didn't know about the name until after writing this description!)	20171210-01-m34.jpg
+20171210-02-m57	2017-12-10	Bellevue at home	Omni XLT 150	F	3	M 57/Ring nebula	7:30	25mm + 2x barlow	60x	Can barely make out a ring with averted vision -- else just a light blur.	20171210-02-m57.jpg
+20171220-01-m39	2017-12-20	Bellevue at home	Omni XLT 150	G	3	M 39	8:22	25mm	30x	Nice triangular-shaped open cluster. Stars are very crisp and clear and bright.	20171220-01-m39.jpg
+20171220-02-m37	2017-12-20	Bellevue at home	Omni XLT 150	G	3	M 37/January Salt and Pepper cluster	9:18	25mm + 2x barlow	60x	Very faint, with averted vision seems like a speckle of stars.	20171220-02-m37.jpg
+20171220-03-davisdog	2017-12-20	Bellevue at home	10x50 Binoculars	G	3	Davis's Dog	9:52			Looks like 73 to me.	20171220-03-davisdog.jpg
+20171220-04-almach	2017-12-20	Bellevue at home	Omni XLT 150	G	3	Almach	10:30	8mm	94x	Primary is a light orange. Secondary is blue (rather deep blue for a star); much fainter. Nice double!	20171220-04-almach.jpg
+20180103-01-uranus	2018-01-03	Bellevue at home	9x50 Finderscope	F	3	Uranus	9:52			White/pale blue. Looks like a big star, but not as bright.	20180103-01-uranus.jpg
+20180103-02-iotacas	2018-01-03	Bellevue at home	Omni XLT 150	F	3	Iota Cas	10:23	8mm	94x	Supposedly a triple star.  Yes, in finderscope this appears as 3 stars clumped together. :)	20180103-02-iotacas.jpg
+20180103-03-rigel	2018-01-03	Bellevue at home	Omni XLT 150	F	3	Rigel	10:39	8mm	94x	Double star. Secondary is very faint, just outside the bright sparkle of the primary. Can see hints of the diffractions patterns due to the spider.	20180103-03-rigel.jpg
+20180113-01-m77	2018-01-13	Bellevue at home	Omni XLT 150	G	3+	M 77	9:00	25mm + 2x barlow	60x	Kind of a pear shape of faint nebulosity - slightly sparkly.	20180113-01-m77.jpg
+20180113-02-castor	2018-01-13	Bellevue at home	Omni XLT 150	G	3+	Castor	9:37	8mm + 2x barlow	188x	Can see separation between primary and secondary, but lots of noise around the stars. This is a 6-star system, I believe.	20180113-02-castor.jpg
+20180113-03-m45	2018-01-13	Bellevue at home	Omni XLT 150	G	3+	M45/Pleiades	10:36	25mm	30x	No nebulosity, but very sharp, bright stars.	20180113-03-m45.jpg
+20180113-04-betamon	2018-01-13	Bellevue at home	Omni XLT 150	G	3+	Beta Mon	11:11	8mm	94x	Can't tell which of the close pair is primary; equal brightness. Both are white. Note: if I had better luck and a higher magnification, should be a triple star.	20180113-04-betamon.jpg
+20180114-01-m38	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	M 38/Starfish Cluster	8:05	25mm + 2x barlow	60x	Smaller than I expected. Lots more stars (not shown) with averted vision. General penagon shape. Shaded ovals show areas with many smaller dimmer stars.	20180114-01-m38.jpg
+20180114-02-mucep	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	Mu Cep	8:23	8mm	94x	Light orange color. Really stands out.	20180114-02-mucep.jpg
+20180114-03-m35	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	M 35	8:46	25mm	30x	Two brigher stars in a cluster, then sort of a hexagonal grid. Then grayer area that resolves to lots of fain stars with averted vision.	20180114-03-m35.jpg
+20180114-04-m42	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	M 42, M 43	9:49	8mm	94x	Nebulosity is brightest near the trapezium (see 4 stars) and the row of 3. Also some about tthe star farther down (M43). Very pretty.	20180114-04-m42.jpg
+20180114-05-ngc2264	2018-01-14	Bellevue at home	Omni XLT 150	F	3-	NGC 2264/Christmas Tree Cluster	10:19	25mm + 2x barlow	60x	Looks like a Christmas tree!	20180114-05-ngc2264.jpg
+20180129-01-145cma	2018-01-29	Bellevue at home	10x50 Binoculars	G	3-	145 CMa/Winter Albireo	10:58			Double. Both appear pale orange.	20180129-01-145cma.jpg
+20180210-01-algieba	2018-02-10	Bellevue at home	Omni XLT 150	VG	3-	Algieba	4:39 AM	8mm + 2x barlow	188x	Both appear bright orange. Nicely separated.	20180210-01-algieba.jpg
+20180210-02-m53	2018-02-10	Bellevue at home	Omni XLT 150	VG	3-	M 53	5:15 AM	8mm	94x	Bright core, with averted vision, a hint of resolving some stars. Seems generally rather gray.	20180210-02-m53.jpg
+20180210-03-corcaroli	2018-02-10	Bellevue at home	Omni XLT 150	VG	3-	Cor Caroli	5:28 AM	8mm	94x	Both bright white.	20180210-03-corcaroli.jpg
+20180210-04-jupiter	2018-02-10	Bellevue at home	Omni XLT 150	VG	3-	Jupiter	5:52 AM	8mm + 2x barlow	188x	Bright white disk. Can see 2 main bands and 2 fainter ones at the top and bottom. Closest moon seems to have moved farther from Jupiter after 15 min.	20180210-04-jupiter.jpg
+20180211-01-cheshire	2018-02-11	Bellevue at home	Omni XLT 150	F	3	Cheshire Cat/Smiley Face	11:39	25mm	30x	Found this pretty fast today - aimed the red dot finder where I thought it would be, and there it was in the scope!	20180211-01-cheshire.jpg
+20180211-02-sigmaori	2018-02-11	Bellevue at home	Omni XLT 150	F	3	Sigma Ori	11:47	8mm	94x	Very cool - I like the two pairs of doubles in the view. :)	20180211-02-sigmaori.jpg
+20180212-01-11cam	2018-02-12	Bellevue at home	Omni XLT 150	F	3	11 Cam	10:08	25mm	30x	A: white, maybe a hint of blue. B: very pale orange. Pretty double, tricky to find in LP skies.	20180212-01-11cam.jpg
+20180212-02-deltaori	2018-02-12	Bellevue at home	Omni XLT 150	F	3	Delta Ori/Mintaka	10:32	25mm + 2x barlow	60x	Both stars are white. Easily split even at 30x.	20180212-02-deltaori.jpg
+20180212-03-m41	2018-02-12	Bellevue at home	Omni XLT 150	F	3	M 41/Little Beehive cluster	10:40	25mm + 2x barlow	60x	Hints of more (much fainter) stars with averted vision. Stars are well spread out.	20180212-03-m41.jpg
+20180212-04-rigel	2018-02-12	Bellevue at home	Omni XLT 150	F	3	Rigel/Beta Ori	11:05	8mm	94x	Lots of nebulosity around the primary. Secondary is faint but distinct pin prick.	20180212-04-rigel.jpg
+20180212-05-m44	2018-02-12	Bellevue at home	Omni XLT 150	F	3	M 44/Beehive Cluster	11:37	25mm	30x	Lots of very bright white stars. Fairly spread out.	20180212-05-m44.jpg
+20180212-06-ceres	2018-02-12	Bellevue at home	Omni XLT 150	F	3	Ceres	12:32	25mm	30x	Just a white dot. Other stars for reference. A: 66 CnC, B: 63 CnC	20180212-06-ceres.jpg
+20180220-01-funnel	2018-02-20	Bellevue at home	Omni XLT 150	G	4	Funnel	10:15	25mm + 2x barlow	60x	All stars are white, approx same brightness. Sky is washed out here, so contrast could be better. Somewhat faint.	20180220-01-funnel.jpg
+20180220-02-arrowhead	2018-02-20	Bellevue at home	Omni XLT 150	G	4	Arrowhead	10:53	8mm	94x	No color in stars.	20180220-02-arrowhead.jpg
+20180220-03-m50	2018-02-20	Bellevue at home	Omni XLT 150	G	4	M 50/Heart Shaped cluster	11:04	8mm	94x	Beautiful heart-shaped open cluster. Seems to have a small concentration of stars in center right.	20180220-03-m50.jpg
+20180220-04-m47	2018-02-20	Bellevue at home	Omni XLT 150	G	4	M 47	11:41	25mm + 2x barlow	60x	Lots of bright stars. I would name this the "Yoshi Cluster". Can easily be seen in 9x50 finderscope.	20180220-04-m47.jpg
+20180222-01-etacas	2018-02-22	Bellevue at home	Omni XLT 150	VG	3+	Eta Cas	9:50	8mm	94x	Primary is yellow, secondary appears dim orange	20180222-01-etacas.jpg
+20180222-02-ngc1981	2018-02-22	Bellevue at home	Omni XLT 150	VG	3+	NGC 1981	10:19	18mm	42x	Looks like an upside down palm tree.	20180222-02-ngc1981.jpg
+20180222-03-ngc2169	2018-02-22	Bellevue at home	Omni XLT 150	VG	3+	NGC 2169	10:45	8mm	94x	Looks like 71 to me. Lighter stars drawn here are only visible with averted vision.	20180222-03-ngc2169.jpg
+20180305-01-m82	2018-03-05	Bellevue at home	Omni XLT 150	G	3	M 82/Cigar Galaxy	10:51	8mm	94x	Long and thin, just a fuzz, no more detail. A little larger, wider with averted vision.	20180305-01-m82.jpg
+20180305-02-m81	2018-03-05	Bellevue at home	Omni XLT 150	G	3	M 81/Bode's Galaxy	11:01	8mm	94x	Center much brigher than the rest, although entire galaxy disappears without averted vision.	20180305-02-m81.jpg
+20180305-03-m3	2018-03-05	Bellevue at home	Omni XLT 150	G	3	M 3	11:46	8mm	94x	Brighter in the center. Can't resolve any stars. Whole thing is fairly bright. No averted vision needed.	20180305-03-m3.jpg
+20180311-01-ngc2244	2018-03-11	Rattlesnake Lake Park	Omni XLT 150	F	7	NGC 2244/Rosette Cluster	10:15	25mm	30x	Looks like a hexagon with a heart on top. Many more stars not drawn.	20180311-01-ngc2244.jpg
+20180311-02-m67	2018-03-11	Rattlesnake Lake Park	Omni XLT 150	F	7	M67/King Cobra Cluster	10:45	8mm	94x	Concentrated stars at the center. Almost seems like a hint of nebulosity. One bright star.	20180311-02-m67.jpg
+20180311-03-leotriplet	2018-03-11	Rattlesnake Lake Park	Omni XLT 150	F	7	M 65, M 66, NGC 3628/Leo Triplet	11:05	20mm	38x	A: M66 - seems the brightest. Bright core, roundish. B: M65 - slightly dimmer and more eccentric. Also bright core. C: NGC 3628 - looks edge-on. Much fainter, only visible with averted vision. No core.	20180311-03-leotriplet.jpg
+20180311-04-m51	2018-03-11	Rattlesnake Lake Park	Omni XLT 150	F	7	M 51/Whirlpool Galaxy	11:30	8mm	94x	Clearly two galaxies, with brighter cores.  Appear face-on. Slight separation betwen them. Hint that they may be connected at the top.	20180311-04-m51.jpg
+20180314-01-ngc2281	2018-03-14	Bellevue at home	Omni XLT 150	G	3	NGC 2281/Broken Heart Cluster	11:16	8mm	94x	Nice snake-shaped sequence of stars in the center.	20180314-01-ngc2281.jpg
+20180314-02-mel111	2018-03-14	Bellevue at home	10x50 Binoculars	G	3	Mel 111	11:45			Very large, spread out cluster. Stars all very bright.	20180314-02-mel111.jpg
+20180315-01-ngc2301	2018-03-15	Bellevue at home	Omni XLT 150	G	3	NGC 2301	10:15	8mm	94x	Some concentrations of very faint stars.	20180315-01-ngc2301.jpg
+20180315-02-gregs3	2018-03-15	Bellevue at home	Omni XLT 150	G	3	Greg's 3	10:48	8mm	94x	Somewhere between a C and a 3. :)	20180315-02-gregs3.jpg
+20180319-01-m48	2018-03-19	Bellevue at home	Omni XLT 150	VG	3-	M 48	10:24	20mm	38x	No strong concentration. General pentagon shape. Relatively faint stars.	20180319-01-m48.jpg
+20180319-02-betamon	2018-03-19	Bellevue at home	Omni XLT 150	VG	3-	Beta Mon	11:01	8mm + 2x barlow	188x	All stars are white. Nice triple! Second and third stars seem equal in brightness. Cleanly split.	20180319-02-betamon.jpg
+20180319-03-ngc2392	2018-03-19	Bellevue at home	Omni XLT 150	VG	3-	NGC 2392/Eskimo Nebula	11:17	8mm + 2x barlow	188x	Circular. Brighter center. Looks like a star at lower magnification. Took four attempts to find this!	20180319-03-ngc2392.jpg
+20180319-04-inchworm	2018-03-19	Bellevue at home	Omni XLT 150	VG	3-	Inchworm	11:51	24mm	31x	Looks like an inchworm. Direction a little hard to determine accurately since near zenith and scope is slipping a little.	20180319-04-inchworm.jpg
+20180320-01-m3	2018-03-20	Bellevue at home	Omni XLT 150	G	3	M 3	11:45	8mm + 2x barlow	188x	Nice little globular cluster. Can't resolve any stars. Center is brighter.	20180320-01-m3.jpg
+20180422-01-napoleonshat	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Napoleon's Hat	10:31	about 14mm	53x	Looks like a nice hat. Stars were relatively faint.	20180422-01-napoleonshat.jpg
+20180422-02-iotaboo	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Iota Boo	11:04	8mm	94x	Both stars are white. Secondary is fainter, just a pinpoint of light.	20180422-02-iotaboo.jpg
+20180422-03-kappaboo	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Kappa Boo	11:10	8mm	94x	Both stars are white. Compared to iota Bootes, these are a little closer, and secondary is brighter.	20180422-03-kappaboo.jpg
+20180422-04-minicoathanger	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Mini Coathanger	11:25	about 15mm	50x	Can see the coathanger with some effort. Stars are not the same brightness; some on the handle require averted vision to see.	20180422-04-minicoathanger.jpg
+20180422-05-jupiter	2018-04-22	Bellevue at home	Omni XLT 150	VG	3-	Jupiter	11:55	8mm + 2x barlow	188x	Drawn slightly larger than actually appears in the view. Two bands are obvious, a third, polar band is visible for certain instants of time. Bands are light brown. Supposedly should see the shadow of Io, but no luck.	20180422-05-jupiter.jpg
+20180506-01-venus	2018-05-06	Bellevue at home	Omni XLT 150	F	2	Venus	9:23	8mm	94x	Very bright, can't use high power since telescope not cooled. Can see that it's gibbous.	20180506-01-venus.jpg
+20180511-01-m13	2018-05-11	Rattlesnake Lake Park	Omni XLT 150	VG	6	M 13	12:05	8mm	94x	Very large and bright. Generally spherical, but appears to have a few chains of stars coming out on the sides.	20180511-01-m13.jpg
+20180523-01-epslyr	2018-05-23	Bellevue at home	Omni XLT 150	VG	3-	Epsilon Lyr/Double Double	10:30	5mm	150x	Doubles not cleanly split, especially epsilon1. However can see two pinpricks for epsilon2.	20180523-01-epslyr.jpg
+20180523-02-moon	2018-05-23	Bellevue at home	Omni XLT 150	VG	3-	Anaxagoras, Epigenes, Birmingham	11:45	5mm	150x	Quick sketch of the edge of the moon as it was getting covered by a cloud.	20180523-02-moon.jpg
+20180524-01-sigmacrb	2018-05-24	Bellevue at home	Omni XLT 150	VG	3	Sigma CrB	11:41	5mm	150x	Primary star looks a little yellower and seconary is whiter. Easily split. Could see two points with a 25mm eyepiece.	20180524-01-sigmacrb.jpg
+20180524-02-jupiter	2018-05-24	Bellevue at home	Omni XLT 150	VG	3	Jupiter	12:03	5mm	150x	Two great bands. Can see some variability in thickness of the biggest one. Higher band seems broken into two spots.	20180524-02-jupiter.jpg
+20180527-01-jupiter	2018-05-27	Bellevue at home	Omni XLT 150	G	3	Jupiter	11:45	5mm	150x	Moon closest to Jupiter has been moving up and away (SW). Can see 3 bands clearly, hints of a fourth.	20180527-01-jupiter.jpg
+20180530-01-venus	2018-05-30	Bellevue at home	Omni XLT 150	P	0 (evening)	Venus	10:03	5mm	150x	No detail, just a white gibbous disc. Can see some chromatic abberation -- top is red, bottom is violet.	20180530-01-venus.jpg
+20180530-02-m53	2018-05-30	Bellevue at home	Omni XLT 150	P	3-	M 53	10:47	5mm	150x	Just a gray patch, slightly brighter in the center	20180530-02-m53.jpg
+20180530-03-jupiter	2018-05-30	Bellevue at home	Omni XLT 150	P	3-	Jupiter	10:58	5mm	150x	Surprisingly clear, given that I was looking through a cloud! Can see two large bands, bottom band looks darker, and another faint band near the top.	20180530-03-jupiter.jpg
+20180601-01-polaris	2018-06-01	Bellevue at home	Omni XLT 150	G	4	Polaris	11:01	5mm	150x	Secondar star is easily separated, but much dimmer. Compass directions are approximate based on the location of the diamond ring in the finderscope.	20180601-01-polaris.jpg
+20180601-02-jupiter	2018-06-01	Bellevue at home	Omni XLT 150	G	4	Jupiter	11:30	5mm	150x	Moons 1,4 are the brightest, 3 next, 4 is dimmest. All perfectly in a line. Can see different darknesses within the bands.	20180601-02-jupiter.jpg
+20180601-03-m29	2018-06-01	Bellevue at home	Omni XLT 150	G	4	M 29/Cooling Tower	12:15	12mm	63x	Small cluster of 7 brighter stars, with a few more dim ones. Not much concentration, rather sparse. Other stars outside this view are much brighter.	20180601-03-m29.jpg
+20180606-01-venus	2018-06-06	Bellevue at home	Omni XLT 150	G	0 (evening)	Venus	9:43	5mm	150x	Nice clear gibbous shape. Can see the dark side in shadow.	20180606-01-venus.jpg
+20180606-02-jupiter	2018-06-06	Bellevue at home	Omni XLT 150	P	0 (clouds)	Jupiter	11:44	5mm	150x	Jupiter visible through the clouds, bands still visible.	20180606-02-jupiter.jpg
+20180611-01-mizaralcor	2018-06-11	Bellevue at home	Omni XLT 150	G	3	Mizar and Alcor	11:53	8mm	94x	Nice bright stars. All white. Classic.	20180611-01-mizaralcor.jpg
+20180611-02-m5	2018-06-11	Bellevue at home	Omni XLT 150	G	3	M 5/Rise Cluster	12:18	5mm	150x	LP is bad enough tthat this is just a fuzzy with direct vision. But averted vision gives lots of stars and detail. Amazing!	20180611-02-m5.jpg
+20180611-03-m12	2018-06-11	Bellevue at home	Omni XLT 150	G	3	M 12	12:30	5mm	150x	(Compared to M 5) Much fainter. Stars seem more distinct, not as dense.	20180611-03-m12.jpg
+20180611-04-m57	2018-06-11	Bellevue at home	Omni XLT 150	G	3	M 57/Ring nebula	12:47	5mm	150x	Fairly bright ring. Inside the ring might be slightly brighter than outside.	20180611-04-m57.jpg
+20180611-05-jupiter	2018-06-11	Bellevue at home	Omni XLT 150	F	3	Jupiter	1:12	5mm	150x	Super bright! Can see two main bands and part of a third.	20180611-05-jupiter.jpg
+20180611-06-saturn	2018-06-11	Bellevue at home	Omni XLT 150	F	3	Saturn	1:35	5mm	150x	Beige color. Outside of rings are darker. Hint of the Cassini division.	20180611-06-saturn.jpg
+20180614-01-m23vesta	2018-06-14	Bellevue at home	Omni XLT 150	G	3	M 23, Vesta	11:32	20mm	38x	M23 - Loose stars, not really any brighter in the center. Vesta - bright (brighter than the rest of the stars), slightly yellow color. Easily seen in the 9x50 finderscope, but not naked eye.	20180614-01-m23vesta.jpg
+20180616-01-venus	2018-06-16	Bellevue at home	Omni XLT 150	G	0 (day)	Venus	7:17	5mm	150x	Can see darker shades (twilight?) towards the edge of the lit side.	20180616-01-venus.jpg
+20180616-02-m4	2018-06-16	Rattlesnake Lake Park	Omni XLT 150	P	7	M 4/Crab Globular Cluster	11:55	5mm	150x	Somewhat dim. Fairly large. Easy to see lots of stars. Center is brighter, seems like a line of stars through the center.	20180616-02-m4.jpg
+20180616-03-m107	2018-06-16	Rattlesnake Lake Park	Omni XLT 150	P	7	M 107/Crucifix Cluster	12:08	5mm	150x	Quite faint. Mostly need averted vision to see anything. Slightly brighter core. Can resolve some stars.	20180616-03-m107.jpg
+20180616-04-m24	2018-06-16	Rattlesnake Lake Park	Omni XLT 150	P	7	M 24	12:50	24mm	31x	Wow. This is like the Pleiades -- lots of bright stars scattered, no concentration. Need bigger FOV to fully take this in! Only brighter stars drawn here. Background looks like the milky way through binoculars.	20180616-04-m24.jpg
+20180616-05-m28	2018-06-16	Rattlesnake Lake Park	Omni XLT 150	P	7	M 28	1:05	8mm	94x	Small globular. Can't resolve any stars. Brighter in the center.	20180616-05-m28.jpg
+20180616-06-m22	2018-06-16	Rattlesnake Lake Park	Omni XLT 150	P	7	M 22	1:14	8mm	94x	Very big, bright. Can resolve lots of stars. Surrounded by a nice ring of stars. Lots more fainter stars, but covered in a cloud before could fill in a more detailed sketch.	20180616-06-m22.jpg
+20180616-07-m8	2018-06-16	Rattlesnake Lake Park	Omni XLT 150	P	7	M 8/Lagoon Nebula	1:47	20mm	38x	Nice open cluster of stars. Lots of nebulosity, esp in binoculars. Was going to pack things up until I saw this.	20180616-07-m8.jpg
