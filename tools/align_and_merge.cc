@@ -11,9 +11,6 @@
 using namespace cv;
 using namespace cv::xfeatures2d;
 
-const int MAX_FEATURES = 500;
-const float GOOD_MATCH_PERCENT = 0.15f;
-
 // Aligns im1 to im2, putting result in im1Reg, and the homography in h.
 void alignImages(const Mat &im1, const Mat &im2, Mat &im1Reg, Mat &h) {
     // Convert images to grayscale
@@ -21,34 +18,40 @@ void alignImages(const Mat &im1, const Mat &im2, Mat &im1Reg, Mat &h) {
     cvtColor(im1, im1Gray, CV_BGR2GRAY);
     cvtColor(im2, im2Gray, CV_BGR2GRAY);
 
-    // Variables to store keypoints and descriptors
+    Ptr<SIFT> detector = SIFT::create();
     std::vector<KeyPoint> keypoints1, keypoints2;
     Mat descriptors1, descriptors2;
-
-    // Detect ORB features and compute descriptors.
-    Ptr<Feature2D> orb = ORB::create(MAX_FEATURES);
-    orb->detectAndCompute(im1Gray, Mat(), keypoints1, descriptors1);
-    orb->detectAndCompute(im2Gray, Mat(), keypoints2, descriptors2);
+    detector->detectAndCompute( im1Gray, noArray(), keypoints1, descriptors1 );
+    detector->detectAndCompute( im2Gray, noArray(), keypoints2, descriptors2 );
 
     // Match features.
-    std::vector<DMatch> matches;
-    Ptr<DescriptorMatcher> matcher = DescriptorMatcher::create("BruteForce-Hamming");
-    matcher->match(descriptors1, descriptors2, matches, Mat());
-
-    // Sort matches by score
-    std::sort(matches.begin(), matches.end());
-
-    // Remove not so good matches
-    const int numGoodMatches = matches.size() * GOOD_MATCH_PERCENT;
-    matches.erase(matches.begin()+numGoodMatches, matches.end());
+    Ptr<DescriptorMatcher> matcher = DescriptorMatcher::create(DescriptorMatcher::FLANNBASED);
+    std::vector<std::vector<cv::DMatch>> matches;
+    matcher->knnMatch(descriptors1, descriptors2, matches, 2);  // Find two nearest matches
+    const float ratio = 0.75; // can be tuned
+    std::vector<cv::DMatch> good_matches;
+    for (int i = 0; i < matches.size(); ++i)
+    {
+        if (matches[i][0].distance < ratio * matches[i][1].distance)
+        {
+            good_matches.push_back(matches[i][0]);
+        }
+    }
 
     // Extract location of good matches
     std::vector<Point2f> points1, points2;
-
-    for (size_t i = 0; i < matches.size(); i++) {
-        points1.push_back(keypoints1[ matches[i].queryIdx ].pt);
-        points2.push_back(keypoints2[ matches[i].trainIdx ].pt);
+    for (size_t i = 0; i < good_matches.size(); i++) {
+        points1.push_back(keypoints1[ good_matches[i].queryIdx ].pt);
+        points2.push_back(keypoints2[ good_matches[i].trainIdx ].pt);
     }
+
+    // DEBUG
+    //Mat img_matches;
+    //drawMatches( im1, keypoints1, im2, keypoints2, good_matches, img_matches, Scalar::all(-1),
+    //             Scalar::all(-1), std::vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS );
+    //imshow("matches", img_matches);
+    //waitKey(0);
+    // end DEBUG
 
     // Find homography
     h = findHomography( points1, points2, RANSAC );
