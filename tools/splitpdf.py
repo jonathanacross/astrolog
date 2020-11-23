@@ -71,12 +71,18 @@ class ImageRecombiner:
         scan_numbers.sort()
 
         # split into top/bottom halves
+        clockwise = True
         for number in scan_numbers:
             input_file = self.get_input_page(number)
+            angle = '"90"' if clockwise else '"-90"'
+            rotate_command = f"mogrify {input_file} -rotate {angle} {input_file}"
+            print(rotate_command)
+            os.system(rotate_command)
             output_file_pattern = self.get_cut_pattern(number)
-            command = f"convert {input_file} -crop 1x2@ +repage {output_file_pattern}"
-            print(command)
-            os.system(command)
+            cut_command = f"convert {input_file} -crop 2x1@ +repage {output_file_pattern}"
+            print(cut_command)
+            os.system(cut_command)
+            clockwise = not clockwise
 
         # go through the files in pairs, combining pages
         paired_scan_numbers = [
@@ -84,9 +90,9 @@ class ImageRecombiner:
         ]
         for pair in paired_scan_numbers:
             page1a = self.get_cut_page(pair[0], 0)
-            page1b = self.get_cut_page(pair[1], 1)
-            page2a = self.get_cut_page(pair[1], 0)
-            page2b = self.get_cut_page(pair[0], 1)
+            page1b = self.get_cut_page(pair[1], 0)
+            page2a = self.get_cut_page(pair[0], 1)
+            page2b = self.get_cut_page(pair[1], 1)
             output1 = self.get_merged_page(pair[0])
             output2 = self.get_merged_page(pair[1])
 
