@@ -60,33 +60,93 @@ void alignImages(const Mat &im1, const Mat &im2, Mat &im1Reg, Mat &h) {
     warpPerspective(im1, im1Reg, h, im2.size());
 }
 
-int main(int argc, char **argv) {
-    if (argc != 4 && argc != 5) {
-        std::cout << "Usage: " << argv[0] << " [-g] img1 img2 dst\n"
+struct CommandLineOptions {
+    enum BlendMode {
+        AVERAGE,
+        DARKEN,
+        LIGHTEN,
+        MULTIPLY,
+        SCREEN
+    };
+
+    // if parsing is successful
+    bool is_valid;
+
+    std::string img1;
+    std::string img2;
+    std::string dst;
+    bool grayscale;
+    BlendMode blend_mode;
+};
+
+CommandLineOptions parseCommandLine(int argc, char **argv) {
+    CommandLineOptions options;
+    options.is_valid = true;
+    options.grayscale = false;
+    options.blend_mode = CommandLineOptions::BlendMode::AVERAGE;
+
+    std::vector<std::string> positional_args;
+
+    for (int i = 1; i < argc; i++) {
+        std::string arg = argv[i];
+
+        if (arg == "--grayscale") {
+            options.grayscale = true;
+        } else if (arg == "--average") {
+            options.blend_mode = CommandLineOptions::BlendMode::AVERAGE;
+        } else if (arg == "--darken") {
+            options.blend_mode = CommandLineOptions::BlendMode::DARKEN;
+        } else if (arg == "--lighten") {
+            options.blend_mode = CommandLineOptions::BlendMode::LIGHTEN;
+        } else if (arg == "--multiply") {
+            options.blend_mode = CommandLineOptions::BlendMode::MULTIPLY;
+        } else if (arg == "--screen") {
+            options.blend_mode = CommandLineOptions::BlendMode::SCREEN;
+        } else if (arg.rfind("-", 0) == 0) {
+            std::cerr << "unknown flag: " << arg << "\n";
+            options.is_valid = false;
+        } else {
+            positional_args.push_back(arg);
+        }
+    }
+
+    if (positional_args.size() != 3) {
+        std::cerr << "expected 3 arguments for img1, img2, and dst.\n";
+        options.is_valid = false;
+    } else {
+        options.img1 = positional_args[0];
+        options.img2 = positional_args[1];
+        options.dst = positional_args[2];
+    }
+
+    if (!options.is_valid) {
+        std::cerr << "\nUsage: " << argv[0] << " [--grayscale] [blend_mode] img1 img2 dst\n"
             << "\n"
             << "Reads img1 and img2, registers the first to match the second,\n"
             << "and then linearly averages them, putting the result in dst.\n"
-            << "If -g is used, then images are treated as grayscale.\n"
-            << "Note that command line args must be in this order.\n";
+            << "Options:\n"
+            << "  --grayscale: converts all images to grayscale\n"
+            << "  blend_mode: one of --average --darken --lighten\n";
+    }
+
+    return options; 
+}
+
+int main(int argc, char **argv) {
+    CommandLineOptions options = parseCommandLine(argc, argv);
+    if (!options.is_valid) {
         return 1;
     }
 
-    // Read command line params.  Very hacky.
-    bool grayscale = (argc == 5);
-    int param_offset = (argc == 5) ? 1 : 0;
-    std::string im1_path = argv[1 + param_offset];
-    std::string im2_path = argv[2 + param_offset];
-    std::string output_path = argv[3 + param_offset];
-
-    Mat im1 = imread(im1_path, IMREAD_COLOR);
+    Mat im1 = imread(options.img1, IMREAD_COLOR);
     if(im1.empty()) {
-        std::cout << "Could not read image: " << im1_path << "\n";
+        std::cerr << "Could not read image: " << options.img1 << "\n";
         return 1;
     }
 
-    Mat im2 = imread(im2_path, IMREAD_COLOR);
+    Mat im2 = imread(options.img2, IMREAD_COLOR);
     if(im2.empty()) {
-        std::cout << "Could not read image: " << im2_path << "\n";
+        std::cerr << "Could not read image: " << options.img2 << "\n";
         return 1;
     }
 
@@ -95,18 +155,39 @@ int main(int argc, char **argv) {
     alignImages(im1, im2, im1_aligned, homography);
 
     // merge
-    double alpha = 0.5;
+    Mat src1 = im1_aligned;
+    Mat src2 = im2;
+    if (options.grayscale) {
+        cvtColor(src1, src1, CV_BGR2GRAY);
+        cvtColor(src2, src2, CV_BGR2GRAY);
+    } 
+
     Mat dst;
-    if (grayscale) {
-        Mat im1_aligned_gray, im2_gray;
-        cvtColor(im1_aligned, im1_aligned_gray, CV_BGR2GRAY);
-        cvtColor(im2, im2_gray, CV_BGR2GRAY);
-        addWeighted(im1_aligned_gray, alpha, im2_gray, 1-alpha, 0.0, dst);
-    } else {
-        addWeighted(im1_aligned, alpha, im2, 1-alpha, 0.0, dst);
+    switch (options.blend_mode) {
+        case CommandLineOptions::BlendMode::AVERAGE: {
+                double alpha = 0.5;
+                addWeighted(src1, alpha, src2, 1-alpha, 0.0, dst);
+                break;
+            }
+        case CommandLineOptions::BlendMode::DARKEN: {
+                dst = cv::min(src1, src2);
+                break;
+            }
+        case CommandLineOptions::BlendMode::LIGHTEN: {
+                dst = cv::max(src1, src2);
+                break;
+            }
+        case CommandLineOptions::BlendMode::MULTIPLY: {
+                dst = cv::max(src1, src2);
+                break;
+            }
+        case CommandLineOptions::BlendMode::SCREEN: {
+                dst = cv::max(src1, src2);
+                break;
+            }
     }
 
-    imwrite(output_path, dst);
+    imwrite(options.dst, dst);
 
     // UI for visual debugging
     // imshow("Image 1", im1);

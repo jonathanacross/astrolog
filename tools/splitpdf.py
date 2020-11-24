@@ -49,18 +49,21 @@ class ImageRecombiner:
         return os.path.join(self.tmp_dir, f"{self.root}-{scan_number}.jpg")
 
     def get_cut_pattern(self, scan_number):
-        return os.path.join(self.tmp_dir, f"{self.root}-{scan_number}-split-%02d.jpg")
+        return os.path.join(self.tmp_dir, f"{self.root}-{scan_number}-split-%02d.png")
 
     def get_cut_page(self, scan_number, page_number):
         return os.path.join(
-            self.tmp_dir, f"{self.root}-{scan_number}-split-0{page_number}.jpg"
+            self.tmp_dir, f"{self.root}-{scan_number}-split-0{page_number}.png"
         )
 
     def get_merged_page(self, scan_number):
+        return os.path.join(self.tmp_dir, f"{self.root}-{scan_number}-merged.png")
+
+    def get_output_page(self, scan_number):
         return os.path.join(self.output_dir, f"{self.root}-{scan_number}.jpg")
 
     def get_last_number(self, file_name):
-        """Gets the last number from a filename, e.g., foo123-001.jpg -> 001""" 
+        """Gets the last number from a filename, e.g., foo123-001.png -> 001""" 
         matches = re.findall(r"\d+", file_name)
         result = list(matches)
         return result[-1]
@@ -96,12 +99,20 @@ class ImageRecombiner:
             output1 = self.get_merged_page(pair[0])
             output2 = self.get_merged_page(pair[1])
 
-            command1 = f"{self.align_and_merge} -g {page1a} {page1b} {output1}"
-            command2 = f"{self.align_and_merge} -g {page2a} {page2b} {output2}"
+            command1 = f"{self.align_and_merge} --grayscale {page1a} {page1b} {output1}"
+            command2 = f"{self.align_and_merge} --grayscale {page2a} {page2b} {output2}"
             print(command1)
             os.system(command1)
             print(command2)
             os.system(command2)
+        
+        # color adjustment
+        for number in scan_numbers:
+            input_file = self.get_merged_page(number)
+            output_file = self.get_output_page(number)
+            command = f"convert {input_file} -level 14%,86% {output_file}"
+            print(command)
+            os.system(command)
 
 
 if __name__ == "__main__":
@@ -122,6 +133,7 @@ if __name__ == "__main__":
        from the paper).
     4. each higher-quality page is stored separately in the output 
        directory.
+    5. do simple level adjustment to improve contrast
     """)
     parser.add_argument("pdf_scan", help="path to the pdf file to process")
     parser.add_argument("output_dir", help="path of output directory")
