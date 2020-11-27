@@ -16,6 +16,7 @@ data class LogEntry(
     val time: String,
     val eyepiece: String,
     val magnification: String,
+    val lunarPhase: String,
     val notes: String,
     val sketch: String
 ) {
@@ -31,12 +32,13 @@ data class LogEntry(
         var obsInfo = ""
         if (date.isNotBlank()) { obsInfo += "<li>Date: $date</li> " }
         if (time.isNotBlank()) { obsInfo += "<li>Time: $time</li> " }
-        if (location.isNotBlank()) { obsInfo += "<li>Location: $location</li> " }
+        if (lunarPhase.isNotBlank()) { obsInfo += "<li>Moon: $lunarPhase</li> " }
+        if (location.isNotBlank()) { obsInfo += "<li>Loc: $location</li> " }
         if (scope.isNotBlank()) { obsInfo += "<li>Scope: $scope</li> " }
         if (seeing.isNotBlank()) { obsInfo += "<li>Seeing: $seeing</li> " }
-        if (transparency.isNotBlank()) { obsInfo += "<li>Transparency: $transparency</li> " }
+        if (transparency.isNotBlank()) { obsInfo += "<li>Trans: $transparency</li> " }
         if (eyepiece.isNotBlank()) { obsInfo += "<li>Eyepiece: $eyepiece</li> " }
-        if (magnification.isNotBlank()) { obsInfo += "<li>Magnification: $magnification</li> " }
+        if (magnification.isNotBlank()) { obsInfo += "<li>Mag: $magnification</li> " }
 
         val htmlNotes = escapeHtml(notes)
 
@@ -121,12 +123,13 @@ data class LogEntry(
             val time = fields[7]
             val eyepiece = fields[8]
             val magnification = fields[9]
-            val notes = fields[10]
-            val sketch = fields[11]
+            val lunarPhase = fields[10]
+            val notes = fields[11]
+            val sketch = fields[12]
             return LogEntry(
                 id, date, location, scope, seeing,
                 transparency, objects, time, eyepiece,
-                magnification, notes, sketch
+                magnification, lunarPhase, notes, sketch
             )
         }
     }
