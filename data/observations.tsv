@@ -413,3 +413,31 @@
 20190726-02-ngc6819	2019-07-26	Bellevue at home	Dobstuff 10	G	4	NGC 6819	10:23	9mm	125x		Somewhat faint cluster, but glittery. Lots of stars, maybe about 10 somewhat brighter ones. Est class VIII.	20190726-02-ngc6819
 20190726-03-svcyg	2019-07-26	Bellevue at home	Dobstuff 10	G	4	SV Cyg	10:45	9mm	125x		Not too saturated; at first glance has hardly any color. Light red, slighty orangy. Not too bright.	20190726-03-svcyg
 20190726-04-vcyg	2019-07-26	Bellevue at home	Dobstuff 10	G	4	V Cyg	10:57	9mm	125x		Bright and brilliant red-orange. More on the orange side. Best carbon star I've seen in a while.	20190726-04-vcyg
+20190726-05-sao46574	2019-07-26	Bellevue at home	Dobstuff 10	G	4	SAO 46574	11:20	25mm	125x		Basically white. Slight yellowish tinge.	20190726-05-sao46574
+20190726-06-ngc6781	2019-07-26	Bellevue at home	Dobstuff 10	G	4	NGC 6721/Snowball Nebula	11:50	9mm + UHC filter	125x		Fairly dim. Can't resolve any detail, just a gray circular ball.  Top part seems a little brighter.	20190726-06-ngc6781
+20190726-07-ngc6888	2019-07-26	Bellevue at home	Dobstuff 10	G	4	NGC 6888/Crescent Nebula	12:16	9mm + UHC filter	125x		Bright stars in the field. Faint crescent of nebulosity around the central 4 stars. Brightes on the west side. Very cool.	20190726-07-ngc6888
+20190727-01-jupiter	2019-07-27	Bellevue at home	Meade Infinity 80	G	0 (dusk)	Jupiter	9:28	25mm, 42mm aperture cap	16x		Io is very close to Jupiter, very faint and hard to see.	20190727-01-jupiter
+20190727-02-tlyr	2019-07-27	Bellevue at home	Omni XLT 150	G	3	T Lyr	11:49	9mm	83x		Fairly deep orange, hint of red,	20190727-02-tlyr
+20190727-03-hklyr	2019-07-27	Bellevue at home	Omni XLT 150	G	3	HK Lyr	12:06	9mm	83x		The dot in a question mark asterism! Very light orange, not much saturation. Almost a little yellow.	20190727-03-hklyr
+20190727-04-uylrngc6791	2019-07-27	Bellevue at home	Omni XLT 150	G	3	U Lyr and NGC 6791	12:22	9mm	83x		NGC 6791 on the right. Very faint open cluster with many dim stars. U Lyr on the left. Deep red, pretty dim also. Weird effect that the triangle originally takes averted vision to see, and U is colorless, but then if I focus on U then other stars disappear and the color on U becomes obvious.	20190727-04-uylrngc6791
+20190727-05-m56	2019-07-27	Bellevue at home	Omni XLT 150	G	3	M 56	12:51	4.5mm	167x		Mostly a gray blur, but can can see some sparkly stars with averted vision, and the core seems brighter. Est class IX.	20190727-05-m56
+20190728-01-jupiter	2019-07-28	Bellevue at home	Meade Infinity 80	G	0 (dusk)	Jupiter	9:39	25mm	16x			20190728-01-jupiter
+20190729-01-jupiter	2019-07-29	Bellevue at home	Meade Infinity 80	G	3	Jupiter	9:55	25mm	16x			20190729-01-jupiter
+20190729-02-ngc6229	2019-07-29	Bellevue at home	Dobstuff 10	G	3	NGC 6229	11:00	4.5mm	250x		Almost star-like. Very small, bright core. Faint halo around it. Est class I.	20190729-02-ngc6229
+20190729-03-greatsquareofpegasus	2019-07-29	Bellevue at home	Naked Eye	G	3	Great Square of Pegasus	12:22					20190729-03-greatsquareofpegasus
+20190730-01-jupiter	2019-07-30	Bellevue at home	Meade Infinity 80	G	3	Jupiter	9:53	25mm, 42mm aperture cap	16x		Moon near jupiter is very faint.	20190730-01-jupiter
+20190730-02-littleorion	2019-07-30	Bellevue at home	Dobstuff 10	G	3	Little Orion	11:27	25mm	45x		Does look like orion, though the belot seems angled the wrong way.	20190730-02-littleorion
+20190730-03-horseshoe	2019-07-30	Bellevue at home	Dobstuff 10	G	3	Horseshoe	11:53	25mm	45x		Doesn't look like a horseshoe to me, though I matched the field of view to the expected location.  (Seems like I can zoom in a bit many places and see horseshoe patterns of stars?)	20190730-03-horseshoe
+20190730-04-rscyg	2019-07-30	Bellevue at home	Dobstuff 10	G	3	RS Cyg	12:20	9mm	125x		Pale orange color.	20190730-04-rscyg
+20190730-05-rycyg	2019-07-30	Bellevue at home	Dobstuff 10	G	3	RY Cyg	12:33	9mm	125x		Very pale orange; mostly white. Distintive run of stars to the S.	20190730-05-rycyg
+20190731-01-jupiter	2019-07-31	Bellevue at home	Meade Infinity 80	G	3-	Jupiter	9:41	25mm, 42mm aperture cap	16x		Moon on the right is dimmest.	20190731-01-jupiter
+20190801-01-jupiter	2019-08-01	Bellevue at home	Meade Infinity 80	G	0 (dusk)	Jupiter	9:06	25mm	16x		Fun to see white it's still light out! Jupiter was visible naked-eye at 8:50, but couldn't see moons in the telescope at that time.	20190801-01-jupiter
+20190802-01-jupiter	2019-08-02	Bellevue at home	Meade Infinity 80	F-P	3-	Jupiter	9:52	25mm	16x		A bit turbulent, even at this low power.	20190802-01-jupiter
+20190803-01-jupiter	2019-08-03	Bellevue at home	Meade Infinity 80	G	0 (dusk)	Jupiter	9:00	25mm	16x		Ganymede is brightest, followed by Europa. Callisto is dimmest. Can see them appear separately as it gets dark.	20190803-01-jupiter
+20190803-02-dodz3	2019-08-03	Bellevue at home	Dobstuff 10	G	3	DoDz 3	10:31	25mm	45x		Can see the "5 Pointed Star" asterism. 7 stars.	20190803-02-dodz3
+20190803-03-vultusissorie	2019-08-03	Bellevue at home	Meade Infinity 80	G	3	Vultus Irrisorie	10:56	18mm	22x		Very bright, easy to find. Nice smiley face! Too big for 10" scope.	20190803-03-vultusissorie
+20190803-04-accyg	2019-08-03	Bellevue at home	Dobstuff 10	G	3	AX Cyg	11:22	9mm	125x		Bright orange star. Fairly vibrant.	20190803-04-accyg
+20190803-05-afcygawcyg	2019-08-03	Bellevue at home	Dobstuff 10	G	3	AF Cyg and AW Cyg	11:42	18mm	64x		Right near zenity, so view rotates every time I recenter! AF: white, slightly yellow. AW: much dimmer, deep orange.	20190803-05-afcygawcyg
+20190803-06-arrowchain	2019-08-03	Bellevue at home	Dobstuff 10	G	3	Arrowchain	12:03	25mm	45x		A curved 7 shape made up of 11-12 stars.	20190803-06-arrowchain
+20190803-07-leiter4	2019-08-03	Bellevue at home	Dobstuff 10	G	3	Leiter 4	12:25	9mm	125x		Two curvy shapes (fishhooks) connected to a bright yellow star (marked).	20190803-07-leiter4
+20190803-08-delphinius	2019-08-03	Bellevue at home	10x50 Binoculars	G	3	Delphinius	12:40		10x		Barely visible with averted vision naked eye, but very bright in binoculars.	20190803-08-delphinius
