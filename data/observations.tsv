@@ -426,7 +426,7 @@
 20190729-02-ngc6229	2019-07-29	Bellevue at home	Dobstuff 10	G	3	NGC 6229	11:00	4.5mm	250x		Almost star-like. Very small, bright core. Faint halo around it. Est class I.	20190729-02-ngc6229
 20190729-03-greatsquareofpegasus	2019-07-29	Bellevue at home	Naked Eye	G	3	Great Square of Pegasus	12:22					20190729-03-greatsquareofpegasus
 20190730-01-jupiter	2019-07-30	Bellevue at home	Meade Infinity 80	G	3	Jupiter	9:53	25mm, 42mm aperture cap	16x		Moon near jupiter is very faint.	20190730-01-jupiter
-20190730-02-littleorion	2019-07-30	Bellevue at home	Dobstuff 10	G	3	Little Orion	11:27	25mm	45x		Does look like orion, though the belot seems angled the wrong way.	20190730-02-littleorion
+20190730-02-littleorion	2019-07-30	Bellevue at home	Dobstuff 10	G	3	Little Orion	11:27	25mm	45x		Does look like orion, though the belt seems angled the wrong way.	20190730-02-littleorion
 20190730-03-horseshoe	2019-07-30	Bellevue at home	Dobstuff 10	G	3	Horseshoe	11:53	25mm	45x		Doesn't look like a horseshoe to me, though I matched the field of view to the expected location.  (Seems like I can zoom in a bit many places and see horseshoe patterns of stars?)	20190730-03-horseshoe
 20190730-04-rscyg	2019-07-30	Bellevue at home	Dobstuff 10	G	3	RS Cyg	12:20	9mm	125x		Pale orange color.	20190730-04-rscyg
 20190730-05-rycyg	2019-07-30	Bellevue at home	Dobstuff 10	G	3	RY Cyg	12:33	9mm	125x		Very pale orange; mostly white. Distinctive run of stars to the S.	20190730-05-rycyg
@@ -437,7 +437,38 @@
 20190803-02-dodz3	2019-08-03	Bellevue at home	Dobstuff 10	G	3	DoDz 3	10:31	25mm	45x		Can see the "5 Pointed Star" asterism. 7 stars.	20190803-02-dodz3
 20190803-03-vultusissorie	2019-08-03	Bellevue at home	Meade Infinity 80	G	3	Vultus Irrisorie	10:56	18mm	22x		Very bright, easy to find. Nice smiley face! Too big for 10" scope.	20190803-03-vultusissorie
 20190803-04-accyg	2019-08-03	Bellevue at home	Dobstuff 10	G	3	AX Cyg	11:22	9mm	125x		Bright orange star. Fairly vibrant.	20190803-04-accyg
-20190803-05-afcygawcyg	2019-08-03	Bellevue at home	Dobstuff 10	G	3	AF Cyg and AW Cyg	11:42	18mm	64x		Right near zenity, so view rotates every time I recenter! AF: white, slightly yellow. AW: much dimmer, deep orange.	20190803-05-afcygawcyg
+20190803-05-afcygawcyg	2019-08-03	Bellevue at home	Dobstuff 10	G	3	AF Cyg and AW Cyg	11:42	18mm	64x		Right near zenith, so view rotates every time I recenter! AF: white, slightly yellow. AW: much dimmer, deep orange.	20190803-05-afcygawcyg
 20190803-06-arrowchain	2019-08-03	Bellevue at home	Dobstuff 10	G	3	Arrowchain	12:03	25mm	45x		A curved 7 shape made up of 11-12 stars.	20190803-06-arrowchain
 20190803-07-leiter4	2019-08-03	Bellevue at home	Dobstuff 10	G	3	Leiter 4	12:25	9mm	125x		Two curvy shapes (fishhooks) connected to a bright yellow star (marked).	20190803-07-leiter4
 20190803-08-delphinius	2019-08-03	Bellevue at home	10x50 Binoculars	G	3	Delphinius	12:40		10x		Barely visible with averted vision naked eye, but very bright in binoculars.	20190803-08-delphinius
+20190804-01-jupiter	2019-08-04	Bellevue at home	Meade Infinity 80	G	1	Jupiter	9:20	25mm	16x		Io is faint; can only see sometimes when not in Jupiter's blur.	20190804-01-jupiter
+20190805-01-tennisracket	2019-08-05	Bellevue at home	Meade Infinity 80	G	3	Tennis Racket	11:28	9mm	44x		Looks like a thin tennis racket. Easy to find and identify.	20190805-01-tennisracket
+20190805-02-minicassiopeia	2019-08-05	Bellevue at home	Meade Infinity 80	G	3	Mini Cassiopeia	11:49	9mm	44x		Bright asterism, easily recognizable.	20190805-02-minicassiopeia
+20190806-01-ngc7008	2019-08-06	Bellevue at home	Dobstuff 10	G	3	NGC 7008/Coat Button Nebula	11:28	9mm	125x		Has a slight ring appearance. The N side, away from the adjacent star, seems slightly brighter, making it look a little crescent shaped.	20190806-01-ngc7008
+20190806-02-ngc6819	2019-08-06	Bellevue at home	Dobstuff 10	G	3	NGC 6819	11:44	9mm	125x		Rather faint, but very rich cluster. Hundreds of stars. Can resolve maybe 10 stars with averted vision; the rest just ake on a sparkly gray patch.  Est class VIII.	20190806-02-ngc6819
+20190820-01-ucyg	2019-08-20	Bellevue at home	Dobstuff 10	G	4	U Cyg	11:10	9mm	125x		Deep brick red. Part of a little Cassiopeia asterism.	20190820-01-ucyg
+20190820-02-ttcyg	2019-08-20	Bellevue at home	Dobstuff 10	G	4	TT Cyg	11:30	9mm	125x		Fairly bright. A pinkish-orange color. Rich area of the sky. Many more stars visible; only the brighter ones drawn.	20190820-02-ttcyg
+20190820-03-meerschaumpipe	2019-08-20	Bellevue at home	Dobstuff 10	G	4	Meerschaum Pipe	11:50	12mm	94x		Guessing that the asterism is the little chain of stars with the Y on the end. Doesn't look like much, but matches the center of the FOV in the picture.	20190820-03-meerschaumpipe
+20190825-01-ngc6802	2019-08-25	Bellevue at home	Dobstuff 10	G	3	NGC 6802	10:17	4.5mm	250x		Very faint, only visible with averted vision. Slightly concentrated near the center, can see maybe 50 stars.	20190825-01-ngc6802
+20190825-02-fairyring	2019-08-25	Bellevue at home	Dobstuff 10	G	3	Fairy Ring Asterism	10:37	25mm	45x		Beautiful ring of double stars. very cool and recognizable. :)	20190825-02-fairyring
+20190825-03-redneckedemu	2019-08-25	Bellevue at home	Dobstuff 10	G	3	Red Necked Emu	10:53	25mm	45x		Looks like three blades of a fan; don't see the emu. Pretty bright though. Marked star has a tinge of orange red.	20190825-03-redneckedemu
+20190825-04-tdra	2019-08-25	Bellevue at home	Dobstuff 10	G	3	T Dra	11:40	9mm	125x		Looks like a double. One on the left is light, but deep orange. Other is blue.	20190825-04-tdra
+20190826-01-patchick56	2019-08-26	Bellevue at home	Dobstuff 10	G	3	Patchick 56	10:24	4.5mm	250x		Rather faint. Sort of a trapezoid. Can only see 3 stars without averted vision.	20190826-01-patchick56
+20190826-02-rvcyg	2019-08-26	Bellevue at home	Dobstuff 10	G	3	RV Cyg	10:52	25mm	45x		Quite bright, fairly saturated orange. Really stands out. :) Lots of glittery stars in the view.	20190826-02-rvcyg
+20190826-03-v460cyg	2019-08-26	Bellevue at home	Dobstuff 10	G	3	V460 Cyg	10:59	25mm	45x		Very bright, light orange. Not very saturated.	20190826-03-v460cyg
+20190826-04-ngc6939	2019-08-26	Bellevue at home	Dobstuff 10	G	3	NGC 6939	11:33	6.5mm	173x		Somewhat dim. See maybe 20 modestly dim stars encircled by 5 brighter ones. Then averted vision hints at many more even dimmer stars.	20190826-04-ngc6939
+20190828-01-ngc40	2019-08-28	Bellevue at home	Dobstuff 10	VG	3	NGC 40	10:55	9mm + UHC filter	125x		Fuzzy ball, brighter in the center. With averted vision see a star in the center.	20190828-01-ngc40
+20190828-02-ngc6939	2019-08-28	Bellevue at home	Dobstuff 10	VG	3	NGC 6939	11:26	6.5mm	173x		Loos cluster, no strong concentration. Maybe 20-30 stars.	20190828-02-ngc6939
+20190901-01-oldmooninnewmoonsarms	2019-09-01	Bellevue at home	Meade Infinity 80	G to F	0 to 3	Old moon in new moon's arms	8:33-8:51	6.5mm	62x	2 day moon	Dark side of moon is lighter than the surrounding sky. Not enough contrast to make out much detail, but can get hints of the major oceans and mare.	20190901-01-oldmooninnewmoonsarms
+20190902-01-ngc6934	2019-09-02	Bellevue at home	Dobstuff 10	G	1	NGC 6934	11:40	4.5mm	250x		Can't quite resolve any stars. But with averted vision has a slightly speckled appearance.	20190902-01-ngc6934
+20190902-02-sao106516	2019-09-02	Bellevue at home	Dobstuff 10	G	1	SAO 106516	12:02	9mm	125x		Bright, not reddish at all, just a pale yellow.	20190902-02-sao106516
+20190903-01-poskus1	2019-09-03	Bellevue at home	Dobstuff 10	G	3	Poskus 1	10:20	6.5mm	173x		A bit dim, but looks like a flyswatter.	20190903-01-poskus1
+20190903-02-thompson1	2019-09-03	Bellevue at home	Dobstuff 10	G	3	Thompson 1	10:39	6.5mm	173x		Arrowhead shaped. Between two bright stars (one outside FOV).	20190903-02-thompson1
+20190930-01-ngc7006	2019-09-30	Bellevue at home	Dobstuff 10	G	3	NGC 7006	10:30	9mm	125x		Rather faint. Hints of some stars on the outside, but mostly just a gray patch. Est class IX.	20190930-01-ngc7006
+20190930-02-mushroom	2019-09-30	Bellevue at home	Dobstuff 10	G	3	Mushroom	11:13	12mm	94x		Took a long time to find. Seems like a very sparse open cluster. Can sort of see a mushroom.	20190930-02-mushroom
+20191001-01-saturnquadrature	2019-10-01	Bellevue at home	Dobstuff 10	VG	3	Saturn	8:10	9mm	125x		Can't see too much detail, but it's clear to see one side is in shadow. Appears to be a darker band across the center. Can see the Cassini band some moments.	20191001-01-saturnquadrature
+20191001-02-m71	2019-10-01	Bellevue at home	Dobstuff 10	VG	1-2	M 71	10:51	9mm	125x		Very little central concentration. Stars are dim and rather spread out. Est class X	20191001-02-m71
+20191005-01-airplane	2019-10-05	Bellevue at home	Meade Infinity 80	VG	3	Airplane	9:50	12mm	33x		Looks a bit like an airplane viewed from above.	20191005-01-airplane
+20191005-02-yacht	2019-10-05	Bellevue at home	Meade Infinity 80	VG	3	Yacht	10:05	18mm	22x		Don't see much of a yacht. There's a nice zigzag of 4 star and an arc - looks like the letters SC in this orientation.	20191005-02-yacht
+20191005-03-tobaccopipe	2019-10-05	Bellevue at home	Meade Infinity 80	VG	3	Tobacco Pipe	10:30	18mm	22x		Fairly bright and recognizable as a pipe.	20191005-03-tobaccopipe
+20191005-04-etacas	2019-10-05	Bellevue at home	Meade Infinity 80	VG	3	Eta Cas	10:47	6.5mm	61x		Primary is yellow, secondary is just a point, but looks orange.	20191005-04-etacas
