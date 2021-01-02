@@ -460,7 +460,7 @@
 20190828-01-ngc40	2019-08-28	Bellevue at home	Dobstuff 10	VG	3	NGC 40	10:55	9mm + UHC filter	125x		Fuzzy ball, brighter in the center. With averted vision see a star in the center.	20190828-01-ngc40
 20190828-02-ngc6939	2019-08-28	Bellevue at home	Dobstuff 10	VG	3	NGC 6939	11:26	6.5mm	173x		Loos cluster, no strong concentration. Maybe 20-30 stars.	20190828-02-ngc6939
 20190901-01-oldmooninnewmoonsarms	2019-09-01	Bellevue at home	Meade Infinity 80	G to F	0 to 3	Old moon in new moon's arms	8:33-8:51	6.5mm	62x	2 day moon	Dark side of moon is lighter than the surrounding sky. Not enough contrast to make out much detail, but can get hints of the major oceans and mare.	20190901-01-oldmooninnewmoonsarms
-20190902-01-ngc6934	2019-09-02	Bellevue at home	Dobstuff 10	G	1	NGC 6934	11:40	4.5mm	250x		Can't quite resolve any stars. But with averted vision has a slightly speckled appearance.	20190902-01-ngc6934
+20190902-01-ngc6934	2019-09-02	Bellevue at home	Dobstuff 10	G	1	NGC 6934	11:40	4.5mm	250x		Can't quite resolve any stars. But with averted vision has a slightly speckled appearance. Est class V.	20190902-01-ngc6934
 20190902-02-sao106516	2019-09-02	Bellevue at home	Dobstuff 10	G	1	SAO 106516	12:02	9mm	125x		Bright, not reddish at all, just a pale yellow.	20190902-02-sao106516
 20190903-01-poskus1	2019-09-03	Bellevue at home	Dobstuff 10	G	3	Poskus 1	10:20	6.5mm	173x		A bit dim, but looks like a flyswatter.	20190903-01-poskus1
 20190903-02-thompson1	2019-09-03	Bellevue at home	Dobstuff 10	G	3	Thompson 1	10:39	6.5mm	173x		Arrowhead shaped. Between two bright stars (one outside FOV).	20190903-02-thompson1
@@ -695,7 +695,7 @@
 20200618-03-m12	2020-06-18	Bellevue at home	Dobstuff 10	G	3	M 12	11:51	6.5mm	173x		Bright, sparkly! Fuzzy cotton ball in the middle. :) Est class VIII.	20200618-03-m12
 20200618-04-m10	2020-06-18	Bellevue at home	Dobstuff 10	G	3	M 10	12:12	9mm	125x		Larger and dimmer than M 10. Bright, faintly concentrated core. Lots of stars resolved. Est class IV.	20200618-04-m10
 20200621-01-m19	2020-06-21	Bellevue at home	Dobstuff 10	F	2.5	M 19	11:20	6.5mm	173x		Seems like this would be pretty bright if this were above the murk. Speckled appearance, hints of lots of stars with averted vision. Est class V.	20200621-01-m19
-20200621-02-6284	2020-06-21	Bellevue at home	Dobstuff 10	F	2.5	NGC 6284	11:32	6.5mm	173x		Small, dim. No stars resolved. Fairly concentrated core. Est class IV.	20200621-02-6284
+20200621-02-ngc6284	2020-06-21	Bellevue at home	Dobstuff 10	F	2.5	NGC 6284	11:32	6.5mm	173x		Small, dim. No stars resolved. Fairly concentrated core. Est class IV.	20200621-02-ngc6284
 20200621-03-ngc6287	2020-06-21	Bellevue at home	Dobstuff 10	F	2.5	NGC 6287	11:45	6.5mm	173x		Very faint and diffuse. Slight speckling. Only visible with averted vision. Est class XI.	20200621-03-ngc6287
 20200621-04-m107	2020-06-21	Bellevue at home	Dobstuff 10	F	2.5	M 107	12:12	6.5mm	173x		Crucifix cluster! Very cool. Faint, slightly speckled. :) Est class V.	20200621-04-m107
 20200622-01-ngc6401	2020-06-22	Bellevue at home	Dobstuff 10	F	2.5	NGC 6401	11:30	6.5mm	173x		Very faint. Not too concentrated. Est class IX.	20200622-01-ngc6401
@@ -741,7 +741,7 @@
 20200718-02-jupiter	2020-07-18	Sammamish HS, Bellevue	Dobstuff 10	P	3-	Jupiter	11:06	12mm	94x		Moons: G (Ganymede), E (Europa), I (Io), C (Callisto). Not too much detail visible with this seeing.	20200718-02-jupiter
 20200718-03-m70	2020-07-18	Sammamish HS, Bellevue	Dobstuff 10	P	3-	M 70	11:33	9mm	125x		Fairly bright. Center not too concentrated. Speckled, but no stars resolved. Est class IV.	20200718-03-m70
 20200718-04-m62	2020-07-18	Sammamish HS, Bellevue	Dobstuff 10	P	3-	M 62	11:52	9mm	125x		Center concentrated. No stars resolved, but speckled. Est class I.	20200718-04-m62
-20200718-05-m55	2020-07-18	Sammamish HS, Bellevue	Dobstuff 10	P	3-	M 55	12:09	12mm	94x		Very diffuse and faint. Easy to lose in the view and barely seen against the background murk.	20200718-05-m55
+20200718-05-m55	2020-07-18	Sammamish HS, Bellevue	Dobstuff 10	P	3-	M 55	12:09	12mm	94x		Very diffuse and faint. Easy to lose in the view and barely seen against the background murk. Est class XI.	20200718-05-m55
 20200718-06-m69	2020-07-18	Sammamish HS, Bellevue	Dobstuff 10	P	3-	M 69	12:32	9mm	125x		Somewhat faint. Large. Speckling of stars, but too dim to see any particular stars clearly. Est class V.	20200718-06-m69
 20200718-07-m54	2020-07-18	Sammamish HS, Bellevue	Dobstuff 10	F	3-	M 54	12:45	6.5mm	173x		Small and bright. No stars resolved, but slight speckled appearance. Est class III.	20200718-07-m54
 20200720-01-ngc6535	2020-07-20	Bellevue at home	Dobstuff 10	G	3	NGC 6535	11:04	6.5mm	173x		Generally dim, but occasionally the center jumps into view. See individual stars, no fuzziness. Est class X.	20200720-01-ngc6535
@@ -789,7 +789,7 @@
 20200818-02-ngc6823	2020-08-18	Bellevue at home	Dobstuff 10	VG	3	NGC 6823	11:10	6.5mm	173x		Small, bright concentrated. Diverse stars. Many fainter stars not drawn. Est class I 3 m.	20200818-02-ngc6823
 20200818-03-ngc6830	2020-08-18	Bellevue at home	Dobstuff 10	VG	3	NGC 6830/Poodle Cluster	11:32	6.5mm	173x		Rich, bright, small cluster. Brighter stars form a cross shape. Est class III 3 m.	20200818-03-ngc6830
 20200822-01-pal11	2020-08-22	Rattlesnake Lake Park	Dobstuff 10	F	5	Pal 11	10:50	4.5mm	250x		Very faint. Just a med-size blur. Est class VIII.	20200822-01-pal11
-20200822-02-pal11finder	2020-08-22	Rattlesnake Lake Park	10x50 Binoculars	F	5	Pal 11	10:50					20200822-02-pal11finder
+20200822-02-pal11finder	2020-08-22	Rattlesnake Lake Park	9x50 Finder	F	5	Pal 11	10:50					20200822-02-pal11finder
 20200822-03-g1	2020-08-22	Rattlesnake Lake Park	Dobstuff 10	F	5	G1	12:08	4.5mm	250x		Brightest globular in the Andromeda galaxy! Appears as a slightly fuzzy star, with two nearby stars making "Mickey Mouse" ears. Very hard to find. Est class V.	20200822-03-g1
 20200823-01-m39	2020-08-23	Bellevue at home	10x50 Binoculars	G	3	M 39	10:44				Bright, large open cluster. About 10 stars resolved, lots more appear as a sparkly haze with averted vision. Est class I 3 r. Mostly fainter stars in FOV not shown.	20200823-01-m39
 20200824-01-m30	2020-08-24	Bellevue at home	Dobstuff 10	G	3	M 30	11:18	4.5mm	250x		Has two "tails" with 6-7 brighter stars. Bright and slightly speckled. Bright core. Est class III.	20200824-01-m30
