@@ -1,0 +1,1 @@
+python3 splitpdf.py ~/Documents/astronomy/astrolog_test/scans2/2-14.pdf  ~/Documents/astronomy/astrolog_test/cleaned_scans ./align_and_merge
